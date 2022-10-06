@@ -2,9 +2,9 @@
 import csv
 import copy
 import config
-import helpers
+from gestor import helpers
 import unittest
-import database as db
+from gestor import database as db
 
 
 class TestDatabase(unittest.TestCase):
